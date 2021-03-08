@@ -1,0 +1,49 @@
+/* Author: Nikki Collins
+Date: 03/03/21 */
+@media screen and (max-width: 1170px) {
+  .formcol1 {
+    flex-basis: auto;
+  }
+
+  .containermap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100%;
+    /* 1:1 Aspect Ratio */
+    margin-bottom: 20px;
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 950px){
+.cardpad{
+  padding-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 770px){
+  .amenitiesList {
+    display: grid;
+    grid-gap: 0px;
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-areas:
+      "col1"
+      "col2";
+      padding: 0;
+      margin:0;
+    }
+  .listcol1{
+    padding: 0;
+  }
+}

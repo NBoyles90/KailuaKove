@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Author: Nikki Collins
+  Date: 03/03/21 -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsivestyle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+  <title>BootStrap Assignment</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class=" nav-link" href="index.html"><i class="fas fa-home"> Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Plumeria Room</a>
+      </li>
+      <li class="nav-item">
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Maile Room</a>
+      </li>
+      <li class="nav-item">
+        <a class=" nav-link navbutton" href="contact.html"><i class="fas fa-envelope"> Contact</i></a>
+      </li>
+    </ul>
+    <!--end nav ul-->
+    <div class="container">
+      <h1 class="center">Contact Us</h1>
+      <div class="row">
+        <div class="col formcol1">
+          <p class="center">For booking &/or reservation requests, please email us & provide the number of nights you wish to stay & your check out day & date along with any questions you may have. Phone numbers are requested in case of any email
+            address errors for us to be able to reply promptly to you. </p>
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <label for="fname">First Name:</label>
+                <input type="text" class="form-control" id="fname" placeholder="First name" required>
+              </div>
+              <div class="col">
+                <label for="lname">Last Name:</label>
+                <input type="text" class="form-control" id="lname" placeholder="Last name" required>
+              </div>
+            </div>
+            <br>
+            <!--end form-row-->
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exampleEmail@gmail.com" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-row">
+              <div class="col">
+                <label for="phone">Phone:</label>
+                <input type="text" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="417-123-4567">
+              </div>
+            </div>
+            <!--end 2nd form row, and table-->
+            <br>
+            <button type="submit" class="btn btn-primary formbutton">Submit</button>
+          </form>
+        </div> <!-- end 1st column-->
+        <div class="col formcol2">
+          <div class="containermap">
+          <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.184960402249!2d-157.7492334850653!3d21.421973779613985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0015399eb53f0b%3A0xf8b93ccbb6bb3ebe!2s804%20Mokapu%20Rd%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1614897491702!5m2!1sen!2sus" width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+          </div>
+      </div>
+      <!--end of table -->
+    </div>
+    <!--end of container -->
+
+    <footer class="center">
+      <p>
+        <i class="fas fa-map-marker-alt"></i>
+        <a href="https://goo.gl/maps/GvGrrZyrPeNrfbYm8">804 Mokapu Road • Kailua HI 96734</a>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:paradisepalmbnb@gmail.com?subject=feedback">paradisepalmbnb@gmail.com</a>
+        <i class="fas fa-phone"></i> <a href="tel:8082611431">808-261-1431</a>
+      </p>
+    </footer>
+  </div>
+  <!--end of container-fluid div-->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/ade06fbd85.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+/* Author: Nikki Collins
+Date: 03/03/21 */
+:root {
+  --dark: rgb(86, 85, 86);
+  --blue: rgb(105, 180, 188);
+  --light: #e5e3c8;
+}
+
+.body {
+  background-color: purple;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  margin: 0;
+  background-color: var(--dark);
+}
+
+.nav-link {
+  color: var(--light);
+}
+
+.nav-link:hover {
+  color: var(--blue);
+}
+
+.nav-item {
+  margin: 0% 8%;
+}
+
+.navbutton {
+  background-color: var(--blue);
+}
+
+.navbutton:hover {
+  color: var(--dark);
+}
+
+/* div container */
+.container {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+h1{
+  margin-top: 10px;
+}
+h1, h2 {
+  color: var(--blue);
+}
+
+/* Cards */
+.containercards{
+  margin-bottom: 20px;
+}
+.card {
+  margin: auto;
+  justify-content: center;
+  height: 335px;
+}
+
+.row {
+  padding-top: 2rem;
+}
+
+.amenitiescontainer {
+  background: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.listcol1 {
+  grid-area: col1;
+  padding-bottom: 10px;
+}
+
+.listcol2 {
+  grid-area: col2;
+  padding-bottom: 10px;
+}
+
+.amenitiesList {
+  display: grid;
+  grid-gap: 20px;
+  /* grid-template-columns: 2fr 1fr; */
+  grid-template-areas:
+    "col1 col2"
+}
+.amenitiescontainer h3{
+  padding-top: 10px;
+}
+
+.amenitiesList div p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: var(--dark);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--blue);
+}
+footer p {
+    margin: 0;
+}
+footer p a{
+  color: var(--light)
+}
+footer p a:hover{
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.formbutton{
+  margin-bottom: 20px;
+}
